@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     color: seashell;
+     font-size: 22px;
+    opacity: 0.9;
+}
+header{
+    height: 69px;
+    border-bottom: 1px;
+    display: fixed;
+}
+.logo{
+    margin: 50px;
+    margin-left: 10px;
+}
+nav{
+    float: right;
+    margin: 10px 10px;
+}
+nav ul li {
+    display: inline-flex;
+    padding: 10px;
+    text-decoration: none;
+}
+.textoPrincipal{
+    height: 700px;
+    width: 1200px;
+    margin: 70px auto 0px auto;
+    display: flex;
+    align-items: center;
+    background-image: url("../imagem/img\ Principal.jpg");
+}
+.textoPrincipal div {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+.segundaImg{
+    display: inline;
+    margin-top: 69px;
+    background-color: black;
+    text-align: center;
+    width: 1000px
+}
+.fotos1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.fotos1 img{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+.terceiraimg{
+    height: 500px;
+    width: 1200px;
+    margin: auto auto;
+    text-align: center;
+    background-image: url(../imagem/img7.jpg);
+}
+.terceiraimg h2{
+    margin: 0px;
+    padding-top: 69px;
+}
+.localização{
+    display: flex;
+    justify-content: space-between;
+}
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin: 0px 20px;
+    opacity: 1;
+}
+
+.Final{
+    text-align: center;
+    margin-left: 20px;
+}
